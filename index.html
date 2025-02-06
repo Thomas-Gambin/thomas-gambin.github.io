@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:image" content="Images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gambin Thomas</title>
+    <link rel="icon" href="Images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="accueil">
+        <nav class="navbar">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#presentation">Présentation</a></li>
+                    <li><a href="#status-actuel">Statut</a></li>
+                    <li><a href="#parcours">Parcours</a></li>
+                    <li><a href="#projet">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <img src="Images/humberger.png" alt="menu-deroulant" class="menu-hamburger">
+        </nav>
+        <h1>
+            Hello W<span id="image__h1"><img src="Images/Earth.gif" alt="earth"></span>rld !
+        </h1>
+        <article class="titre">
+            <a href="#presentation">Thomas Gambin</a>
+            <br>
+            <a href="#presentation">Développeur Web</a>
+            <br><br>
+            <br><br>
+            <br><br>
+        </article>
+    </header>
+    <main>
+        <section class="accueil">
+            <div class="detail">
+                <ul>
+                    <li>
+                        <span>NOM :</span> Thomas Gambin
+                    </li>
+                    <li>
+                        <span>LIEU :</span> Draguignan
+                    </li>
+                    <li>
+                        <span>PROFESSION :</span> Développeur web
+                    </li>
+                    <li>
+                        <span>LANGAGE :</span> HTML / CSS / JS / PHP / Symfony
+                    </li>
+                </ul>
+                <img src="Images/Moi.jpg" alt="Thomas Gambin">
+            </div>
+        </section>
+        <section class="presentation" id="presentation">
+            <div class="perso">
+                <h2>Présentation</h2>
+                <article>
+                    Passionné d'informatique et attiré depuis toujours par les nouvelles technologies, j’ai fait le
+                    choix après mes premières expériences dans la fibre et l’ADSL, de me plonger dans
+                    le monde du développement web pour en faire ma nouvelle activité professionnelle.
+                    <br><br>
+                    N'hésitez pas à découvrir mon parcours et compétences au travers de mes projets .
+                    <br><br>
+                    Actuellement en formation depuis le mois de Février 2024 au sein de l'école O'Clock , je maitrise
+                    d’ores et déjà les bases des langages de développement web front et back-end, et notamment le
+                    langage PHP dont le framework symfony.
+                    <br><br>
+                    Bienvenue dans mon univers numérique ou ma créativité et mon savoir-faire sont au service de vos
+                    besoins.
+                </article>
+            </div>
+        </section>
+        <section class="status-actuel " id="status-actuel"></section>
+        <h2 id=" status">Statut Actuel</h2>
+        <div class="status">
+            <article>
+                Avec toujours l’envie de me perfectionner Je suis à la recherche d'une alternance en entreprise pour
+                approfondir mes compétences et mon savoir-faire en suivant une formation de
+                concepteur développeur d'applications web.
+            </article>
+        </div>
+        </section>
+
+        <section class="parcours" id="parcours">
+
+            <div class="travail">
+                <h2>Mes experiences professionnelles</h2>
+                <div class="container">
+                    <ul class="image-list">
+                        <img class="image-item" src="Images/DevWeb.png" alt="DevWeb" />
+                        <img class="image-item" src="Images/TechnicienTelecom.png" alt="Technicien Telecom" />
+                        <img class="image-item" src="Images/prepCommande.png" alt="Préparation Commande" />
+                    </ul>
+                </div>
+        </section>
+        <section class="projet" id="projet">
+            <h2>Mes projets</h2>
+            <div class="slide-container">
+                <div class="custom-slider slideIn">
+                    <!-- <div class="slide-index">1 / 3</div> -->
+                    <a href="https://thomas-gambin.com/" target="_blank"><img class="slide-img"
+                            src="Images/Portfolio.png" alt="Mon portfolio"></a>
+                </div>
+                <div class="custom-slider slideIn">
+                    <!-- <div class="slide-index">2 / 3</div> -->
+                    <img class="slide-img" src="Images/404.png">
+                    <div class="slide-text">Projet en cours ! 🚧</div>
+                </div>
+                <div class="custom-slider slideIn">
+                    <!-- <div class="slide-index">3 / 3</div> -->
+                    <img class="slide-img" src="Images/404.png">
+                    <div class="slide-text">Projet en cours ! 🚧</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <div class="slide-dot">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="me-contacter" id="contact">
+            <h2>Me contacter</h2>
+            <article class="contact">
+                Vous trouverez ci dessous les différents liens pour me contacter et suivre mes futurs projets !
+            </article>
+            <nav class="Liens">
+                <a href="https://fr.linkedin.com/in/thomas-gambin" target="_blank"><img src="Images/linkedin.png"
+                        alt="Mon linkedin"></a>
+                <a href="https://github.com/Thomas-Gambin" target="_blank"><img src="Images/github.png"
+                        alt="Mon github"></a>
+                <a href="mailto:t.gambin.pro@gmail.com" target="_blank"><img src="Images/Mail.png" alt="Mon mail"></a>
+                <a href="Autres/Cv-Thomas-Gambin.pdf" target="_blank"><img src="Images/cv.png" alt="Mon CV"></a>
+            </nav>
+            <article id="Droits">
+                © Thomas Gambin 2024. Tous droits réservés.
+            </article>
+        </div>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
